@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 10px;
+            border-width: 0.5px;
+
+        }
+
+        /* tr:nth-child(even){
+            background-color: aqua;
+        }
+        tr:nth-child(odd){
+            background-color: blueviolet;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <table>
+
+        <!-- <colgroup>
+    <col span="1" style="background-color: aqua;">
+    <col span="1" style="background-color: yellowgreen;">
+    <col span="2" style="background-color: coral;">
+    <col span="2" style="background-color:hotpink">
+</colgroup> -->
+
+        <caption>Time Table</caption>
+        <tr>
+        <tr>
+            <th colspan="6">time table</th>
+        </tr>
+        <th rowspan="6">Hours</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+
+        </tr>
+        <tr>
+            <td>science</td>
+            <td>maths</td>
+            <td>science</td>
+            <td>maths</td>
+            <td>arts</td>
+
+        </tr>
+        <tr>
+            <td>social</td>
+            <td>history</td>
+            <td>english</td>
+            <td>social</td>
+            <td>sports</td>
+        </tr>
+        <tr>
+            <th colspan="5">Lunch</th>
+        </tr>
+        <tr>
+            <td>science</td>
+            <td>maths</td>
+            <td>science</td>
+            <td>maths</td>
+            <td rowspan="2">Project</td>
+
+        </tr>
+        <tr>
+            <td>social</td>
+            <td>history</td>
+            <td>english</td>
+            <td>social</td>
+
+        </tr>
+    </table>
+
+    <br><br>
+
+    <table>
+
+    </table>
+
+</body>
+
+</html>
